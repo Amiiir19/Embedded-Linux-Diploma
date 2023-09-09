@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests
 data=requests.get('https://www.boredapi.com/api/activity')
 print(data.json()['activity'])
